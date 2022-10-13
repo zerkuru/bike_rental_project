@@ -1,0 +1,396 @@
+/*main styles*/
+.body{
+    position: relative;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    background: #FFFFFF;
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 20px;
+	font-size-adjust: 0.58;
+	color: #131313;
+	-webkit-font-smoothing: antialiazed;
+	-webkit-overflow-scrolling: touch;
+	margin-top: 70px;
+	/*left: center;*/
+}
+
+.orderbackground{
+    background-image: url(bootstrap/orderback.jpg); /* Путь к фоновому изображению */
+    background-color: #1E1D18;
+    color: white
+
+}
+
+.lefted{
+    text-align: left;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.transportback{
+    background-image: url(bootstrap/transportback.jpg);
+    background-color: white;
+ }
+
+ .greyedtotal{
+    background-color: #606060;
+
+ }
+
+.ordercard{
+   background-color: secondary;
+
+}
+ .transportback_dark{
+    background-image: url(bootstrap/transportback_dark.jpg);
+    background-color: #1E1D18;
+ }
+
+.transportoverlay{
+    background: 252, 252, 252, 0.8;
+}
+
+.greyed{
+   color: #7f7f7f;
+}
+
+.rightened{
+   text-align: right;
+}
+
+.orderform{
+   margin-top: 35;
+   margin-bottom: 20;
+   padding-top: 15;
+   padding-bottom: 15;
+}
+
+.greyborder{
+    border-color: grey;
+    border-weight: 2px;
+}
+
+.imaged{
+    margin-top: 28px;
+	margin-bottom: 25px;
+
+}
+
+h2, h3, h4 {
+    font-family: "Roboto";
+	font-weight: 300;
+	color: #444;
+}
+
+h2, h3, h4 {
+    font-family: "Roboto";
+	font-weight: 300;
+	color: #6c6c6c;
+}
+
+
+h1{
+    font-family: "Roboto";
+	color: #5c5c5c;
+	font-size: 176;
+}
+
+p{
+    margin-top: 28px;
+    line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.lefted{
+    text-align: left;
+}
+
+.smallbox{
+    width: 100px;
+    height:  200px;
+
+}
+
+.btn-primary{
+    background-color:  #92CE57;
+}
+.greened-gradient{
+    background-image: linear-gradient(to top, #9dd468 9%, rgba(205, 252, 188, 0) 31%);
+}
+
+.whitened{
+    color: #FFFFFF;
+}
+
+.greened{
+    color: #92CE57;
+}
+
+.greenedtotal{
+    background-color: #92CE57;
+}
+
+.btn-primary{
+
+background-color: #92CE57;
+
+color: white;
+
+border-color: #92CE57;
+
+}
+
+.btn-primary:hover,
+
+.btn-primary:focus,
+
+.btn-primary:visited{
+
+background-color: white;
+
+color: #92CE57;
+
+border-color: #92CE57;
+
+}
+
+.btn-outline-success{
+background-color: white;
+
+color: #55595c;
+
+border-color: #55595c;
+
+}
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:visited{
+
+background-color: #55595c;
+
+color: white;
+
+border-color: #55595c;
+
+
+}
+
+.icon-link{
+color: green;
+}
+
+
+.btn-outline-primary{
+background-color: white;
+
+color: #92CE57;
+
+border-color: #92CE57;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:visited{
+background-color: #92CE57;
+
+color: white;
+
+border-color: #92CE57;
+
+}
+/*
+a:hover, a:focus {
+    color: #607051;
+	text-decoration: none;
+	outline: 0;
+}*/
+
+a:link {
+  text-decoration: none;
+
+}
+a:visited {
+
+  text-decoration: none;
+}
+
+.logotext{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+hr {
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #ccc;
+   margin: 1em 0;
+   padding: 0;
+}
+
+.navbar{
+   font-weight: 800;
+   font-size: 14 px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.navbar-inverse {
+   background: #FFFFFF;
+   border-color: #FFFFFF;
+}
+
+.titlename {
+  width: 744px;
+  font-family: IBMPlexMono;
+  font-size: 96px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: 2.88px;
+  text-align: left;
+  color: #131313;
+}
+
+.carousel-slide {
+  height: 716px;
+}
+
+.do-box{
+  width: 200px;
+  height: 250px;
+  flex-grow: 0;
+  padding: 60px 60px 60px 60px;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px 0 rgba(16, 112, 177, 0.2);
+  background-color: #fff;
+  float:left;
+  margin: 0 15px 15px 0;
+  text-align:center;
+
+}
+
+
+
+.s-hidden {
+    visibility:hidden;
+    padding-right:10px;
+}
+.select {
+    cursor: none;
+    display:inline-block;
+    position:relative;
+    font:normal 11px/22px Arial, Sans-Serif;
+    color:black;
+    border:1px solid #ccc;
+}
+.styledSelect {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:white;
+    padding:0 10px;
+    font-weight:bold;
+}
+.styledSelect:after {
+    content:"";
+    width:0;
+    height:0;
+    border:5px solid transparent;
+    border-color:black transparent transparent transparent;
+    position:absolute;
+    top:9px;
+    right:6px;
+}
+.styledSelect:active, .styledSelect.active {
+    background-color:#eee;
+}
+.options {
+    display:none;
+    position:absolute;
+    top:100%;
+    right:0;
+    left:0;
+    z-index:999;
+    margin:0 0;
+    padding:0 0;
+    list-style:none;
+    border:1px solid #ccc;
+    background-color:white;
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.options li {
+    padding:0 6px;
+    margin:0 0;
+    padding:0 10px;
+}
+.options li:hover {
+    background-color:#39f;
+    color:white;
+}
+
+.selectbox {
+    padding:0 6px;
+    margin:0 0;
+    padding:0 6px;
+
+}

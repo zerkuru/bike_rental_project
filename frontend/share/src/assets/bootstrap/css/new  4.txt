@@ -1,0 +1,20 @@
+
+ 
+ <i class="fa-light fa-tire"></i>
+<i class="fa-solid fa-person-biking-mountain"></i>  - mountain bike <i class="fa-light fa-person-biking-mountain"></i>
+<i class="fa-solid fa-person-biking"></i>   bike  <i class="fa-light fa-person-biking"></i>
+<i class="fa-solid fa-envelope"></i>  envelope
+
+<i class="fa-light fa-moped"></i> scooter
+<i class="fa-light fa-user"></i> user
+<i class="fa-light fa-clipboard-list"></i>  list
+
+
+<i class="fa-light fa-mountain-city"></i>  
+<i class="fa-light fa-bicycle"></i>
+<i class="fa-light fa-cart-flatbed-boxes"></i> orders
+<i class="fa-light fa-person-snowmobiling"></i>
+<i class="fa-light fa-house"></i>
+
+
+
